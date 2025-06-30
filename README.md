@@ -68,7 +68,7 @@ Then follow the on-screen prompts:
     Email header 2 info---
 
 ### Sample OutPut
-    ![sample_output](sample_output.JPG)
+![sample_output](sample_output.JPG)
 
 ## Author
 **Aliyah Ibrahim O.**
