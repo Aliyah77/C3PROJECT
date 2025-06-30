@@ -1,4 +1,5 @@
-# Email Header Analyzer
+README GENERATED WITH ASSISTANCE FROM AI
+# 📧 Email Header Analyzer
 
 **Author:** Aliyah Ibrahim  
 **Version:** 2025-June-29  
@@ -8,7 +9,7 @@
 
 ## 🧠 Project Overview
 
-The Email Header Analyzer is a Python-based CLI tool that analyzes raw email headers to determine the credibility of an email using three authentication mechanisms:
+This Email Header Analyzer is a Python-based CLI tool that analyzes raw email headers to determine the credibility of an email using three authentication mechanisms:
 
 - **SPF** (Sender Policy Framework)
 - **DKIM** (DomainKeys Identified Mail)
