@@ -287,17 +287,12 @@ def excecuteAnalysis():
     return 
 
 def excecuteDisplayR():
-    """
-    
+    #directs users to view READMe
+    readMe = """Please view the full README and usage instructions at:
 
-    Returns
-    -------
-    int
-        DESCRIPTION.
+    https://github.com/yourusername/your-repo-name/blob/main/README.md
 
     """
-    readMe = """
-        """
     print(readMe)
     print ("Returning to main menu")
     displayMainMenu()
@@ -305,7 +300,7 @@ def excecuteDisplayR():
 
 def chooseMenuItem(count: int):
     """
-    
+    Purpose: Allows user to choose items on meu
 
     Parameters
     ----------
@@ -340,20 +335,14 @@ def chooseMenuItem(count: int):
 
 
 def displayMainMenu():
-    """
-    
-
-    Returns
-    -------
-    None.
-
-    """
+    #Purpose: displays main meny
     numOfTries = 20
     chooseMenuItem(numOfTries)
     
     return
 
 def displayIntro():
+    #Purpose: displays introductory message
     print(f"Hello and Welcome! \nThis is an email header analyzer")
     print("Select options by entering their corresponding number")
 
@@ -368,6 +357,7 @@ def exitProgram():
     sys.exit()
     
 def main():
+    #controls program's flow
     displayIntro()
     displayMainMenu()
     while(True):
