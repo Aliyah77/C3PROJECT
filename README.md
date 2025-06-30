@@ -74,11 +74,11 @@ Then follow the on-screen prompts:
     Email header 2 info---
 
 ### Sample OutPut
-Sample console output
+1. Sample console output
 
 ![sample_output](sample_output.PNG)
 
-Sample file output
+2. Sample file output
 
 ![sample_file_output](sample_file_output.PNG)
 ## Author
