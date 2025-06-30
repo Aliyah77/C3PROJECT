@@ -74,10 +74,10 @@ Then follow the on-screen prompts:
     Email header 2 info---
 
 ### Sample OutPut
-1. **Sample Console Output**  
+1. Sample Console Output  
    ![sample_output](sample_output.PNG)
 
-2. **Sample File Output**  
+2. Sample File Output
    ![sample_file_output](sample_file_output.PNG)
 
 ## Author
