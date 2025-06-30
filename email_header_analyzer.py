@@ -290,7 +290,7 @@ def excecuteDisplayR():
     #directs users to view READMe
     readMe = """Please view the full README and usage instructions at:
 
-    https://github.com/yourusername/your-repo-name/blob/main/README.md
+    https://github.com/Aliyah77/C3PROJECT/blob/main/README.md
 
     """
     print(readMe)
