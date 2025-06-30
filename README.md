@@ -55,11 +55,11 @@ python email_header_analyzer.py
 Then follow the on-screen prompts:
 
 1. Select the Analyze Header(s) option by entering in 1.
-![Input1](Input1.jpeg)
+![Input1](Input1.JPG)
 2. Select whether to paste the email header or read it from a file.
-![Input2](Input2.jpeg)
+![Input2](Input2.JPG)
 3. If reading from a file, provide the filename (with or without path).
-![Input3](Input3.jpeg)
+![Input3](Input3.JPG)
 4. If you have multiple headers, separate them using the keyword #NEXT#.
     Email header 1 info---
     #NEXT#
@@ -70,7 +70,7 @@ Then follow the on-screen prompts:
 
 email header 2 info...
 ### Sample OutPut
-![sample_output](sample_output.jpeg)
+![sample_output](sample_output.JPG)
 ## Licence
 MIT License
 
