@@ -28,6 +28,12 @@ This tool can help detect spoofing and phishing attempts by verifying these comp
 - ✅ Saves results in a timestamped `.txt` report file
 
 ---
+### 📖 Use Cases
+
+- Auditing suspicious emails
+- Demonstrating email authentication mechanisms
+- Educating users on email spoofing detection
+
 
 ## ⚙️ Prerequisites
 
@@ -68,9 +74,13 @@ Then follow the on-screen prompts:
     Email header 2 info---
 
 ### Sample OutPut
-![sample_output](sample_output.JPG)
+![sample_output](sample_output.PNG)
 
 ## Author
 **Aliyah Ibrahim O.**
+
 Computer Science Enthusiast & Mechanical Engineering Student
 
+## 📬 Contact
+
+For questions, feel free to connect with me via email at aliyahib07@gmail.com
