@@ -75,9 +75,11 @@ Then follow the on-screen prompts:
 
 ### Sample OutPut
 Sample console output
+
 ![sample_output](sample_output.PNG)
 
 Sample file output
+
 ![sample_file_output](sample_file_output.PNG)
 ## Author
 **Aliyah Ibrahim O.**
