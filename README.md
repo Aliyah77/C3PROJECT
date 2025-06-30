@@ -1,4 +1,3 @@
-README GENERATED WITH ASSISTANCE FROM AI
 # 📧 Email Header Analyzer
 
 **Author:** Aliyah Ibrahim  
@@ -85,3 +84,5 @@ Computer Science Enthusiast & Mechanical Engineering Student
 ## 📬 Contact
 
 For questions, feel free to connect with me via email at aliyahib07@gmail.com
+
+Note: This README was created with guidance and assistance from AI tools(ChatGPT)
