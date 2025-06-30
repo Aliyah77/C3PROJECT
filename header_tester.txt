@@ -1,0 +1,67 @@
+Delivered-To: user@example.com
+Received: by 2002:a05:6e02:10b8:b0:61f:de9a:2f6b with SMTP id z24csp123456lfd;
+        Fri, 28 Jun 2024 08:22:14 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHC2TfR7cRUc5+RZP8nMlEIEwq9h97hbcv8iLk3v1HEynA==
+X-Received: by 2002:a81:5b19:0:b0:6e6:2954:3c32 with SMTP id a25-20020a815b19000000b006e629543c32mr3453788ywi.5.1719584534184;
+        Fri, 28 Jun 2024 08:22:14 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1719584534; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=QWxuGp...
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=example.com; s=selector1;
+        h=from:to:subject:date:message-id:mime-version;
+        bh=JSkPZ1...;
+        b=clqU5...
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of sender@example.com designates 192.0.2.1 as permitted sender) smtp.mailfrom=sender@example.com;
+       dkim=fail header.i=@example.com header.s=selector1 header.b=clqU5...;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=example.com
+
+Return-Path: <sender@example.com>
+Received: from mail.example.com (mail.example.com. [192.0.2.1])
+        by mx.google.com with ESMTPS id l27si3940997qkj.120.2024.06.28.08.22.13
+        for <user@example.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 28 Jun 2024 08:22:13 -0700 (PDT)
+From: Trusted Sender <sender@example.com>
+To: user@example.com
+Subject: Security Notice
+Date: Fri, 28 Jun 2024 08:21:59 -0700
+Message-ID: <CAOqk=Rm6b@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+#NEXT#
+
+Delivered-To: user@example.com
+Received: by 2002:a05:6e02:10b8:b0:61f:de9a:2f6b with SMTP id z24csp123456lfd;
+        Fri, 28 Jun 2024 08:22:14 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHC2TfR7cRUc5+RZP8nMlEIEwq9h97hbcv8iLk3v1HEynA==
+X-Received: by 2002:a81:5b19:0:b0:6e6:2954:3c32 with SMTP id a25-20020a815b19000000b006e629543c32mr3453788ywi.5.1719584534184;
+        Fri, 28 Jun 2024 08:22:14 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1719584534; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=QWxuGp...
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=example.com; s=selector1;
+        h=from:to:subject:date:message-id:mime-version;
+        bh=JSkPZ1...;
+        b=clqU5...
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=fail (google.com: domain of sender@example.com designates 192.0.2.1 as permitted sender) smtp.mailfrom=sender@example.com;
+       dkim=fail header.i=@example.com header.s=selector1 header.b=clqU5...;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=example.com
+
+Return-Path: <sender@example.com>
+Received: from mail.example.com (mail.example.com. [192.0.2.1])
+        by mx.google.com with ESMTPS id l27si3940997qkj.120.2024.06.28.08.22.13
+        for <user@example.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 28 Jun 2024 08:22:13 -0700 (PDT)
+From: Trusted Sender <sender@example.com>
+To: user@example.com
+Subject: Security Notice
+Date: Fri, 28 Jun 2024 08:21:59 -0700
+Message-ID: <CAOqk=Rm6b@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
